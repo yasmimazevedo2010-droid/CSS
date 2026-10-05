@@ -1,0 +1,21 @@
+.box1{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(69, 20, 114);
+    border: 1px solid;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 25px;
+    margin: 20px;
+}
+.box2{
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(29, 43, 109);
+    border: 1px solid;
+}

@@ -1,0 +1,14 @@
+:root{
+--cor-fonte:rgb(48, 48, 66);
+--cor-texto: rgb(167, 167, 175);
+}
+h1{
+    color:var(--cor-primaria)
+}
+ p{
+    color:var(--cor-texto)
+    backgroud-color:var(--cor-primaria)
+    font-size:
+ }
+
+ 

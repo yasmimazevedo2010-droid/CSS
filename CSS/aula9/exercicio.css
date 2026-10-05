@@ -1,0 +1,46 @@
+.container {
+    height: 100vh;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    grid-template-areas:
+        "A1 A1 A1 A1 A1 A1"
+        "A2 A2 A3 A3 A3 A3"
+        "A2 A2 A3 A3 A3 A3"
+        "A4 A4 A4 A4 A5 A5"
+        "A4 A4 A4 A4 A5 A5"
+        "A6 A6 A6 A6 A6 A6"
+    ;
+}
+
+.box1{
+    background-color: rgb(173, 100, 104);
+    grid-area: A1;
+}
+
+.box2{
+    background-color: rgb(158, 182, 120);
+    grid-area: A2;
+}
+
+.box3{
+    background-color: rgb(167, 114, 216);
+    grid-area: A3;
+}
+
+.box4{
+    background-color: rgb(175, 115, 148);
+    grid-area: A4;
+}
+
+.box5{
+    background-color:rgb(219, 143, 143);
+     grid-area: A5;
+}
+
+.box6{
+    background-color:rgb(118, 116, 233);
+     grid-area: A6;
+}

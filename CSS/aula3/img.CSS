@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(243, 172, 205);
+    /*cor do fundo*/
+    background-image: url(./fundo.avif);
+    /*imagem do fundo*/
+    background-repeat: no repeat
+    /*para nao repetir*/
+    background-size:cover;
+}
+
+img{
+    height: 350px;
+    filter:drop-shadow(5px 5px 5px pink);
+}
+figure{
+    text-align: center;
+    margin: 0px;
+    width: 400px;
+    border: 1px solid;
+    background-color: rgb(255, 208, 241);
+}
+figcaption{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(245, 169, 205);
+    text-shadow: 5px 5px 5px;
+}

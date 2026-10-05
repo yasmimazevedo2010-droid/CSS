@@ -1,0 +1,26 @@
+img{
+ float: right;
+ border: 1px solid;
+}
+p{
+    overflow: auto;
+    background-color: rgb(132, 102, 156);
+    clear: right;
+}
+.box1{
+    margin: 10px;
+height: 250px;
+width:250px;
+background-color: rgb(200, 190, 255);
+border: 5px rgb(87, 40, 87);
+padding: 20px;
+box-sizing: border-box;
+}
+.box2{
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(148, 148, 184);
+    border: 5px solid;
+    box-sizing: ;
+}

@@ -1,0 +1,12 @@
+.primeiro::after{
+content:-Turma 01;
+}
+.primeiro::before{
+content: prof-;
+}
+.segundo::first-letter{
+    font-size: 20px;
+    color: rgb(84, 84, 148);
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}

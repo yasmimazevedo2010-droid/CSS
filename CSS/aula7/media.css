@@ -1,0 +1,61 @@
+@media screen and (max-width: 400px){
+
+.nome1{
+    color: rgb(54, 100, 85);
+    font-size: 20px;
+    text-align: center;
+}
+}
+
+
+
+@media print and (max-width:800px){
+.nome2 {
+    color: rgb(103, 66, 128);
+    font-size: 20px;
+    text-align: right;
+}
+ }
+
+
+
+ @media (max-width:600px){
+.nome3{
+    color: rgb(119, 201, 226);
+    font-weight: 800;
+    text-align: left;
+}
+ }
+
+
+ @media (min-width: 700px){
+    .nome4{
+        color: rgb(82, 161, 197);
+        text-align: left;
+        background-color: rgb(114, 73, 161);
+    }
+}
+
+
+@media(orientation: landscape){
+    body{
+        background-color: rgb(105, 27, 53);
+        color: rgb(230, 228, 126);
+    }
+
+
+    .nome5{
+        color: rgb(255, 205, 230);
+        text-align: center;
+    }
+}
+
+
+@media(min-width:750px) and (max-width:780px){
+    .nome6{
+        color: rgb(114, 72, 72);
+        font-weight: 900;
+        text-align: center;
+        font-size: 30px;
+    }
+}
